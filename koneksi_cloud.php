@@ -1,6 +1,6 @@
 <?php
-// Railway biasanya menyediakan MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE
-// Jika kosong, kita ambil dari default yang tersedia
+ob_start();
+
 $host = getenv('MYSQLHOST');
 $user = getenv('MYSQLUSER');
 $pass = getenv('MYSQLPASSWORD');
@@ -12,4 +12,3 @@ $conn = mysqli_connect($host, $user, $pass, $db, $port);
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
-?>
