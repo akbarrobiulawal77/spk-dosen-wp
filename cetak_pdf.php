@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+session_start();
+include 'koneksi_cloud.php';
 if (!isset($_SESSION['login'])) { header("Location: login.php"); exit; }
 
 $bobot = [5, 5, 5, 4, 4, 5, 5, 5, 4, 3];
