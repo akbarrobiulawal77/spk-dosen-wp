@@ -5,7 +5,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-2">
             <span class="text-2xl">🏆</span>
-            <span class="font-extrabold text-xl text-[#1A202C] tracking-tight">SPK DOSEN BEST</span>
+            <span class="font-extrabold text-xl text-[#1A202C] tracking-tight">DOSEN BERPRESTASI</span>
         </div>
         
         <div class="flex flex-col md:flex-row items-center gap-4">
