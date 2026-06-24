@@ -212,7 +212,7 @@ include 'engine_wp.php';
             <form action="" method="POST" class="space-y-4">
                 <div><label class="block font-black text-xs mb-1">Nama Kriteria</label><input type="text" name="nama_kriteria" required class="w-full border-2 border-[#1A202C] rounded-xl p-2 font-bold focus:ring-[#8BD3DD] text-sm"></div>
                 <div class="flex gap-4">
-                    <div class="w-1/2"><label class="block font-black text-xs mb-1">Bobot (1-10)</label><input type="number" name="bobot" min="1" max="10" required class="w-full border-2 border-[#1A202C] rounded-xl p-2 font-bold focus:ring-[#8BD3DD] text-sm"></div>
+                    <div class="w-1/2"><label class="block font-black text-xs mb-1">Bobot</label><input type="number" name="bobot" min="1" max="10" required class="w-full border-2 border-[#1A202C] rounded-xl p-2 font-bold focus:ring-[#8BD3DD] text-sm"></div>
                     <div class="w-1/2"><label class="block font-black text-xs mb-1">Atribut</label><select name="atribut" class="w-full border-2 border-[#1A202C] rounded-xl p-2 font-bold focus:ring-[#8BD3DD] text-sm"><option value="Benefit">Benefit (+)</option><option value="Cost">Cost (-)</option></select></div>
                 </div>
                 
